@@ -20,10 +20,19 @@ body {
   height: 600px;
   perspective: 800px;
 }
-
+/*
 .container:hover > .card {
   cursor: pointer;
   transform: rotateY(180deg);
+}
+*/
+
+#front-butt {
+    display: none;
+}
+
+#front-butt:checked + label > .card {
+    transform: rotateY(180deg);
 }
 
 .card {
@@ -42,15 +51,6 @@ body {
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   position: absolute;
   backface-visibility: hidden;
-}
-
-#front-butt {
-    display: none;
-}
-
-#front-butt:checked + label > img {
-    width: 70px;
-    height: 74px;
 }
 
 .front {
