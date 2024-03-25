@@ -44,6 +44,15 @@ body {
   backface-visibility: hidden;
 }
 
+#front-butt {
+    display: none;
+}
+
+#front-butt:checked + label > img {
+    width: 70px;
+    height: 74px;
+}
+
 .front {
   background-image: url("/imgs/1.png");
 }
