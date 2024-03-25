@@ -16,8 +16,8 @@ body {
 }
 
 .container {
-  width: 350px;
-  height: 500px;
+  width: 846px;
+  height: 600px;
   perspective: 800px;
 }
 
@@ -45,15 +45,14 @@ body {
 }
 
 .front {
-  background-image: url(https://source.unsplash.com/random/350x500);
+  background-image: url(/imgs/1.png);
 }
 
 .back {
-  background-color: #3a3a3a;
+  background-image: url(/imgs/2.png);
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
 }
