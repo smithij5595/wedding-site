@@ -45,11 +45,11 @@ body {
 }
 
 .front {
-  background-image: url(/imgs/1.png);
+  background-image: url("/imgs/1.png");
 }
 
 .back {
-  background-image: url(/imgs/2.png);
+  background-image: url("/imgs/2.png");
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
