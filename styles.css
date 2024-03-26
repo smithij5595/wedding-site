@@ -27,11 +27,11 @@ body {
 }
 */
 
-#front-butt {
+#card-flip {
     display: none;
 }
 
-#front-butt:checked + label > .card {
+#card-flip:checked + label > .card {
     transform: rotateY(180deg);
 }
 
