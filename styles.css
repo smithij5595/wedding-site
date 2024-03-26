@@ -23,7 +23,7 @@ body {
   perspective: 800px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
 	.container {
 		width: 90%;
 		aspect-ratio: 1.41/1;
