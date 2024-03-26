@@ -7,7 +7,7 @@
 body {
   height: 100vh;
   overflow: hidden;
-  background-color: #674045;
+  background: url("imgs/background.jpg");
   font-family: Helvetica, sans-serif;
   color: rgb(211, 211, 211);
   display: flex;
