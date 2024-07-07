@@ -16,8 +16,16 @@ body {
 }
 
 .itin-container {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 60px 25px 60px 25px;
+  width:80vw;
+}
+
+.img-container{
+  text-align: center;
+}
+
+.img-container > img {
+  width: 100%;
 }
 
 .container {
